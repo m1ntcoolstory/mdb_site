@@ -22,62 +22,146 @@
 <body>
 
 	<!-- Preloader -->
-	<div class="preloader-background">
+	<!-- <div class="preloader-background">
 		<div class="preloader">
 			<img src="img/svg/preloader-circles.svg" alt="Loading...">
 		</div>
-	</div>
+	</div> -->
 	<!-- /.Preloader -->
 
 
 	<!-- Nav -->
 	<header>
-		<nav class="navbar navbar-expand-lg navbar-dark ">
-
-			<a class="navbar-brand" href="#"><img src="img/my/logo.png" class="header__logo" alt="Logo"></a>
-
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon text-dark"></span>
+		<!-- <nav class="navbar navbar-expand-lg navbar-light fix">
+			<a class="navbar-brand" href="#">
+				<img src="img/my/logo.png" class="header__logo" alt="Logo">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
 			</button>
-
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto ml-2">
+				<ul class="navbar-nav mr-auto">
 					<li class="nav-item active">
-						<a class="nav-link text-dark header__text" href="#">Домой <span
-								class="sr-only">(current)</span></a>
+					   <a class="nav-link waves-effect waves-light" href="#">Home <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link text-dark header__text" href="#">Features</a>
+						<a class="nav-link waves-effect waves-light" href="#">Features</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link text-dark header__text" href="#">Pricing</a>
+						<a class="nav-link waves-effect waves-light" href="#">Pricing</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link text-dark header__text" href="#">Opinions</a>
-					</li>
+					
 				</ul>
-				<ul class="navbar-nav nav-flex-icons justify-content-center">
-					<li class="nav-item">
-						<a class="nav-link" href="https://facebook.com"><i class="fab fa-facebook-f"
-								style="color: black;"></i></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="https://twitter.com"><i class="fab fa-twitter"
-								style="color: black;"></i></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="https://instagram.com"><i class="fab fa-instagram"
-								style="color: black;"></i></a>
-					</li>
-				</ul>
+				<form class="form-inline">
+					<div class="md-form my-0">
+						<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+					</div>
+				</form>
+			</div>
+		</nav> -->
+		<!-- Navbar -->
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+			<div class="container">
+
+				<!-- Brand -->
+				<a class="navbar-brand" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
+					<img src="img/my/fq.png" class="header__logo" alt="Logo">
+				</a>
+
+				<!-- Collapse -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<!-- Links -->
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+					<!-- Left -->
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link clr-custom" href="#">Home
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link clr-custom" href="https://mdbootstrap.com/docs/jquery/" target="_blank">About
+								MDB</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link clr-custom" href="https://mdbootstrap.com/docs/jquery/getting-started/download/"
+								target="_blank">Free
+								download</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link clr-custom" href="https://mdbootstrap.com/education/bootstrap/" target="_blank">Free
+								tutorials</a>
+						</li>
+					</ul>
+
+					<!-- Right -->
+					<ul class="navbar-nav nav-flex-icons">
+						<li class="nav-item">
+							<a href="https://www.facebook.com/mdbootstrap" class="nav-link" target="_blank">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="https://twitter.com/MDBootstrap" class="nav-link" target="_blank">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+					</ul>
+
+				</div>
+
 			</div>
 		</nav>
+
+
+		<!-- Mask & flexbox options-->
+		<div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+			<!-- Content -->
+			<div class="text-center white-text mx-5 wow fadeIn">
+				<h1 class="mb-4">
+					<strong>Learn Bootstrap 4 with MDB</strong>
+				</h1>
+
+				<p>
+					<strong>Best & free guide of responsive web design</strong>
+				</p>
+
+				<p class="mb-4 d-none d-md-block">
+					<strong>The most comprehensive tutorial for the Bootstrap 4. Loved by over 500 000 users. Video and
+						written versions
+						available. Create your own, stunning website.</strong>
+				</p>
+
+				<a target="_blank" href="https://mdbootstrap.com/education/bootstrap/"
+					class="btn btn-outline-white btn-lg">Start
+					free tutorial
+					<i class="fas fa-graduation-cap ml-2"></i>
+				</a>
+
+				<div>
+					<img src="img/my/chess-bg.png" alt="Image">
+				</div>
+
+			</div>
+			<!-- Content -->
+
+		</div>
+		<!-- Mask & flexbox options-->
+
+
+
 	</header>
 	<!-- /.Nav -->
 
 	<!-- Header__carousel -->
-	<div class="owl-carousel">
+	<!-- <div class="owl-carousel">
 		<div class="item">
 			<img src="img/my/first.jpg" alt="">
 		</div>
@@ -85,224 +169,220 @@
 			<img src="img/my/second.jpg" alt="">
 		</div>
 
-	</div>
+	</div> -->
 	<!-- /.Header__carousel-->
 
-
-	<div class="section white" id="move-to-content">
-		<div class="row container">
-			<h1>Parallax</h1>
-			<p class="grey-text text-darken-3 lighten-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-				Nisi
-				eveniet labore similique eius enim natus eum voluptatem fuga cum consequuntur ipsa earum quibusdam
-				excepturi ad optio est, dolore possimus dolorem?
-				A quasi voluptate itaque eum dolorem natus, esse facere, quo omnis quod dolores repellat dignissimos
-				tenetur accusantium corrupti veniam aut magnam. Fugit, alias molestiae rem laborum aspernatur
-				distinctio
-				quos quia?
-				Ex minima exercitationem molestias doloribus dolore porro maxime officiis consequatur amet voluptate
-				itaque dolores animi, vel pariatur. Iure non magni voluptatem, exercitationem quasi, ad sit totam,
-				tempora placeat maxime iusto?
-				Culpa soluta quod voluptates odit reiciendis explicabo nam officia qui obcaecati vel pariatur ullam,
-				sit
-				assumenda nisi cum illum autem accusantium quidem, totam iure? Dolores officia nesciunt autem iusto
-				illo.
-				Possimus voluptates delectus consequatur asperiores tenetur vero numquam ducimus doloremque odio
-				voluptatibus rem exercitationem quia, repellendus beatae hic repudiandae. Eveniet sapiente
-				cupiditate
-				quo doloremque eius repudiandae labore cumque molestiae repellat.
-				Ratione velit repudiandae voluptates praesentium totam cum dignissimos, vitae modi debitis! Illo
-				laborum
-				asperiores sit ducimus in accusamus voluptatibus, quisquam est, labore culpa veritatis. Dolores quam
-				commodi animi alias. Dolor?
-				Velit cumque tempore sequi magni aliquam libero impedit repudiandae, maxime veniam eaque dolor hic,
-				recusandae facere culpa qui fuga odit magnam illum numquam incidunt porro quod perspiciatis facilis?
-				Qui, architecto.
-				Facilis sed ab consequuntur laboriosam aut labore voluptatibus possimus sit? Sapiente cum, adipisci
-				dolorum commodi voluptates voluptatem molestiae labore voluptatum aut dicta! Praesentium, a repellat
-				in
-				labore aperiam quas vel?
-				Praesentium omnis tempora earum nam, minima perferendis est laborum nesciunt ipsa fugit? Labore
-				quidem
-				quaerat, debitis delectus non consectetur ad perspiciatis, voluptatum facere repellat in animi alias
-				nostrum. Perferendis, quisquam.
-				Ea quo soluta doloremque delectus, quis beatae sit debitis eaque dicta saepe voluptas nam esse
-				officiis,
-				dolorum facere necessitatibus perferendis fugiat neque explicabo aliquam incidunt perspiciatis
-				provident. Illo, molestias sequi.
-				Error iure veniam quis animi dolorem, hic nam velit similique voluptate ex. Dolore nihil fugit
-				doloremque impedit, ex corporis, sed voluptate voluptas ducimus, molestias error aliquam soluta
-				alias
-				accusantium sequi!
-				Ab sequi, rerum reiciendis error amet optio asperiores voluptas. Fugiat iste architecto magnam
-				accusamus
-				voluptatum ipsa quam eligendi delectus aliquid, facere facilis suscipit sequi provident? Velit vitae
-				repellat in maiores!
-				Doloribus perferendis quod soluta praesentium incidunt! Enim facilis ipsum repudiandae, aliquid in
-				atque
-				recusandae consequuntur, culpa repellat, mollitia quos eius error aperiam earum distinctio neque
-				officiis quo sapiente doloribus iure?
-				Rem, aspernatur. Dolorem tempora, porro hic quas inventore cumque nihil optio eius repudiandae error
-				est
-				nobis rem excepturi, temporibus, quibusdam quis deserunt! Velit at, officia mollitia quaerat beatae
-				consequatur soluta!
-				Quibusdam magnam incidunt eius? Culpa placeat, a quia eaque accusantium rerum adipisci consequuntur
-				iste
-				praesentium rem. Eaque iste aut quia, rem voluptate ipsum, ducimus reiciendis, repellendus magni
-				modi
-				ratione a?
-				Maxime deleniti nobis numquam. Ducimus accusantium ipsa debitis excepturi officiis modi consectetur
-				quisquam laborum voluptatibus sapiente eum suscipit autem consequuntur numquam, asperiores minus,
-				magni
-				fuga necessitatibus enim. Praesentium, ad quo?
-				Veniam enim ab voluptatum, qui nihil corporis. Excepturi fuga itaque quo laborum rerum unde pariatur
-				velit, iste assumenda officia, in sit dolorem aperiam repudiandae amet quae facilis debitis,
-				eligendi
-				ratione.
-				Quod totam beatae voluptate, molestiae ad culpa cumque obcaecati eum error quae animi temporibus
-				libero
-				similique placeat laborum hic modi molestias illum officiis consequatur veniam corporis tempore
-				vitae
-				delectus. Facere.
-				Corporis dolore, consequuntur porro unde voluptates minima placeat optio adipisci nemo cumque totam
-				qui
-				fugit veniam commodi facilis nobis, earum dicta deserunt corrupti. Expedita, delectus! Iusto
-				consectetur
-				aperiam perferendis eos!
-				Amet in expedita dolorum soluta? Perspiciatis animi, praesentium, et neque non laudantium quod
-				impedit
-				commodi ullam labore alias quaerat possimus architecto rem fugiat, numquam odio a suscipit ex!
-				Aliquid,
-				necessitatibus?</p>
+	<!-- Text -->
+	<div class="container-fluid">
+		<div class="row">
+			<p class="text-justify-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dolores eius
+				corporis. Quam porro tempora non, officia facilis labore reiciendis explicabo molestias saepe vel
+				dolorem dolores quo molestiae unde ducimus.
+				Eius amet culpa consequatur fuga praesentium, eligendi vitae. Minima dolore tempore ullam odit sequi,
+				placeat voluptatum repellat, sint explicabo eveniet vero, corporis deserunt distinctio sunt veniam
+				temporibus eum consequatur reiciendis.
+				Velit quidem atque, deleniti id deserunt omnis dolorum quas ut amet voluptatem dolore doloremque
+				veritatis, laborum dolorem asperiores quia eum nesciunt natus temporibus earum dignissimos? Voluptatem
+				tenetur excepturi pariatur fugiat?
+				Reprehenderit necessitatibus, quia ea enim nisi dolores qui tempora. Nihil provident asperiores eligendi
+				odit aspernatur! Obcaecati culpa, sint quod consequatur at dolor? Incidunt in doloribus saepe sapiente!
+				Aspernatur, neque corrupti.
+				Ut et, cum dignissimos unde, distinctio neque, totam natus possimus dolores libero voluptas ea ab
+				reprehenderit reiciendis accusantium illo nihil illum voluptatum nulla fugit. Numquam accusantium odio
+				dolorum quae natus.
+				Vero quaerat consequatur dolor doloribus! Minus quisquam quas nostrum nulla velit, debitis nam maxime
+				dolor cum saepe odio incidunt explicabo delectus quos aspernatur! Modi corrupti error, natus pariatur
+				consequuntur voluptas!
+				Laborum explicabo perspiciatis consectetur asperiores numquam eligendi ipsa iure, at pariatur aut enim
+				fugiat qui error alias praesentium corporis ratione amet sint velit maxime. Mollitia, unde iure! Saepe,
+				cum tenetur.
+				Laudantium sequi beatae porro molestias error atque dolorem ipsum natus enim, iure quibusdam eligendi
+				minus facere unde corporis, labore ducimus sint reprehenderit necessitatibus, minima architecto
+				similique fuga! Necessitatibus, doloremque nobis.
+				Nam libero sit numquam accusantium nostrum temporibus fugiat autem exercitationem suscipit ex cupiditate
+				voluptatum, ut atque, consequuntur earum! Nobis delectus tempore error laboriosam commodi illo iusto sed
+				quo possimus asperiores.
+				Tempora quasi nemo, facere laboriosam, dolorem aperiam maxime possimus commodi natus eum provident
+				distinctio ad dolore ab accusamus dignissimos quibusdam cum nostrum deleniti, sapiente facilis dolor?
+				Animi aliquid obcaecati deserunt?</p>
 		</div>
 	</div>
-	</div>
+	<!-- /.Text -->
 
 
-	<!-- Info -->
-	<div class="container-fluid elegant-color-dark" id="about-us">
-
-	</div>
-	<!-- /.Info -->
 
 	<!-- Our coaches -->
-	<h3 class="text-center">Наши тренеры</h3>
+
+	<section class="my-5 coaches">
+
+		<!-- Section heading -->
+		<h2 class="h1-responsive font-weight-bold text-center  clr-custom">Наши тренера</h2>
+		<hr class="mt-1">
+		
+
+		<div class="container">
+			<!-- Grid row -->
+			<div class="row">
+
+				<!-- Grid column -->
+				<div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+
+					<!-- Rotating card -->
+					<div class="card-wrapper">
+						<div id="card-1" class="card card-rotating text-center">
+							<!-- Front Side -->
+							<div class="face front">
+
+								<!-- Avatar -->
+								<div class="avatar mx-auto white">
+									<img src="https://mdbootstrap.com/img/Photos/Avatars/img(10).jpg"
+										class="rounded-circle img-fluid" alt="First sample avatar image">
+								</div>
+								<!-- Content -->
+								<div class="card-body">
+									<h4 class="font-weight-bold mt-1 mb-3">Maria Kate</h4>
+									<p class="font-weight-bold dark-grey-text">Photographer</p>
+
+								</div>
+							</div>
+							<!-- Front Side -->
+							<!-- Back Side -->
+							<div class="face back">
+								<!-- Content -->
+								<div class="card-body">
+									<!-- Content -->
+									<h4 class="font-weight-bold mt-4 mb-2">
+										<strong>About me</strong>
+									</h4>
+									<hr>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quae, dolores
+										dicta.
+										Blanditiis rem amet repellat, dolores nihil quae in mollitia asperiores ut rerum
+										repellendus,
+										voluptatum eum, officia laudantium quaerat?
+									</p>
+
+								</div>
+							</div>
+							<!-- Back Side -->
+						</div>
+					</div>
+					<!-- Rotating card -->
+
+				</div>
+				<!-- Grid column -->
+
+				<!-- Grid column -->
+				<div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+					<!-- Rotating card -->
+					<div class="card-wrapper">
+						<div id="card-2" class="card card-rotating text-center">
+							<!-- Front Side -->
+							<div class="face front">
+
+								<!-- Avatar -->
+								<div class="avatar mx-auto white">
+									<img src="https://mdbootstrap.com/img/Photos/Avatars/img(20).jpg"
+										class="rounded-circle" alt="Second sample avatar image">
+								</div>
+								<!-- Content -->
+								<div class="card-body">
+									<h4 class="font-weight-bold mt-1 mb-3">Anna Deynah</h4>
+									<p class="font-weight-bold dark-grey-text">Web Designer</p>
+
+								</div>
+							</div>
+							<!-- Front Side -->
+							<!-- Back Side -->
+							<div class="face back">
+								<!-- Content -->
+								<div class="card-body">
+									<!-- Content -->
+									<h4 class="font-weight-bold mt-4 mb-2">
+										<strong>About me</strong>
+									</h4>
+									<hr>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quae, dolores
+										dicta.
+										Blanditiis rem amet repellat, dolores nihil quae in mollitia asperiores ut rerum
+										repellendus,
+										voluptatum eum, officia laudantium quaerat?
+									</p>
+
+
+								</div>
+							</div>
+							<!-- Back Side -->
+						</div>
+					</div>
+					<!-- Rotating card -->
+				</div>
+				<!-- Grid column -->
+
+				<!-- Grid column -->
+				<div class="col-lg-4 col-md-12">
+					<!-- Rotating card -->
+					<div class="card-wrapper">
+						<div id="card-3" class="card card-rotating text-center">
+							<!-- Front Side -->
+							<div class="face front">
+
+								<!-- Avatar -->
+								<div class="avatar mx-auto white">
+									<img src="https://mdbootstrap.com/img/Photos/Avatars/img(8).jpg"
+										class="rounded-circle img-fluid" alt="Third sample avatar image">
+								</div>
+								<!-- Content -->
+								<div class="card-body">
+									<h4 class="font-weight-bold mt-1 mb-3">John Doe</h4>
+									<p class="font-weight-bold dark-grey-text">Front-end Developer</p>
+
+								</div>
+							</div>
+							<!-- Front Side -->
+							<!-- Back Side -->
+							<div class="face back">
+								<!-- Content -->
+								<div class="card-body">
+									<!-- Content -->
+									<h4 class="font-weight-bold mt-4 mb-2">
+										<strong>About me</strong>
+									</h4>
+									<hr>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quae, dolores
+										dicta.
+										Blanditiis rem amet repellat, dolores nihil quae in mollitia asperiores ut rerum
+										repellendus,
+										voluptatum eum, officia laudantium quaerat?
+									</p>
+
+
+								</div>
+							</div>
+							<!-- Back Side -->
+						</div>
+					</div>
+					<!-- Rotating card -->
+				</div>
+				<!-- Grid column -->
+
+			</div>
+		</div>
+		<!-- Grid row -->
+
+	</section>
+
+
 	<!-- /.Our coaches -->
 
-	<!--Carousel Wrapper-->
-	<div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
-		<!--Indicators-->
-		<ol class="carousel-indicators">
-			<li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
-			<li data-target="#carousel-example-1z" data-slide-to="1"></li>
-			<li data-target="#carousel-example-1z" data-slide-to="2"></li>
-		</ol>
-		<!--/.Indicators-->
-		<!--Slides-->
-		<div class="carousel-inner" role="listbox">
-			<!--First slide-->
-			<div class="carousel-item active">
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="card card-cascade col-md-4 col-lg-4 col-sm-12 col-xs-12 ml-3 ">
-
-							<!-- Card image -->
-							<div class="view view-cascade overlay">
-								<img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/men.jpg"
-									alt="Card image cap">
-								<a>
-									<div class="mask rgba-white-slight"></div>
-								</a>
-							</div>
-
-							<!-- Card content -->
-							<div class="card-body card-body-cascade text-center">
-								<!-- Title -->
-								<h4 class="card-title"><strong>Billy Coleman</strong></h4>
-								<!-- Subtitle -->
-								<h6 class="font-weight-bold indigo-text py-2">Web
-
-									developer</h6>
-								<!-- Text -->
-								<p class="card-text">Lorem ipsum dolor sit amet, consectetur
-
-									adipisicing elit. Voluptatibus, ex,
-									recusandae. Facere modi sunt, quod quibusdam.
-								</p>
-							</div>
-						</div>
-					</div>
 
 
-				</div>
-			</div>
-			<!--/First slide-->
-			<!--Second slide-->
-			<div class="carousel-item">
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="card card-cascade col-md-4 col-lg-4 col-sm-12 col-xs-12 ml-3">
 
-							<!-- Card image -->
-							<div class="view view-cascade overlay">
-								<img class="card-img-top" src="img/my/pho.jpg" alt="Card image cap">
-								<a>
-									<div class="mask rgba-white-slight"></div>
-								</a>
-							</div>
-
-							<!-- Card content -->
-							<div class="card-body card-body-cascade text-center">
-								<!-- Title -->
-								<h4 class="card-title"><strong>dfdfd</strong></h4>
-								<!-- Subtitle -->
-								<h6 class="font-weight-bold indigo-text py-2">Web
-
-									developer</h6>
-								<!-- Text -->
-								<p class="card-text">Lorem ipsum dolor sit amet, consectetur
-
-									adipisicing elit. Voluptatibus, ex,
-									recusandae. Facere modi sunt, quod quibusdam.
-								</p>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-			<!--/Second slide-->
-			<!--Third slide-->
-			<div class="carousel-item">
-				<img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"
-					alt="Third slide">
-			</div>
-			<!--/Third slide-->
-		</div>
-		<!--/.Slides-->
-		<!--Controls-->
-		<a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="sr-only">Previous</span>
-		</a>
-		<a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="sr-only">Next</span>
-		</a>
-		<!--/.Controls-->
-	</div>
-	<!--/.Carousel Wrapper-->
-
-	<!-- Card Regular -->
-
-
-	<hr class="my-5">
 
 	<!-- Form -->
-	<section id="contact">
-
+	<section id="contact" class="contact">
 		<!-- Heading -->
-		<h2 class="mb-5 font-weight-bold text-center">Записаться в наш клуб</h2>
+		<h2 class="mb-5 font-weight-bold text-center clr-custom">Записаться в наш клуб</h2>
 
 		<!--Grid row-->
 		<div class="row">
@@ -365,7 +445,7 @@
 				<!--Grid row-->
 
 				<!--Google map-->
-				<div id="map-container" class="z-depth-1-half map-container mb-5" style="height: 400px"></div>
+				<div id="map-container" class="z-depth-1-half map-container mb-5" style="height: 400px;"></div>
 
 			</div>
 			<!--Grid column-->
@@ -395,6 +475,8 @@
 	<script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
 	<!-- Preloader -->
 	<script src="js/preloader.js"></script>
+	<!-- WOW-->
+	<script src="js/modules/wow.js"></script>
 	<!-- Owl -->
 	<script src="owl-carousel/owl.carousel.min.js"></script>
 	<!-- Custom script-->

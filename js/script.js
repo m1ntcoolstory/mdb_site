@@ -7,6 +7,13 @@ $(document).ready(function () {
         loop: true
     });
 
+    /* // Sticky nav
+    $(window).scroll(function(){
+        var y = $(document).scrollTop();
+        if (y < 200) $('.navbar').removeClass('fix');
+        else $('.navbar').addClass('fix');
+    }); */
+
     // Anchor
     $('a[href^="#"]').on('click', function (event) {
         event.preventDefault();
