@@ -7,6 +7,11 @@
     z-index: 99;
 } */
 
+
+body{
+    --blue-color: #028cd4;
+}
+
 .navbar{
     background-color: rgba(47, 54, 64, .5);
 }
@@ -18,18 +23,19 @@
 @media only screen and (max-width: 768px){
     .navbar{
         background-color:rgba(47, 54, 64, 1);
+        position: relative;
     }
 }
 
 .clr-custom{
     /* color: #222f3e; */
-    color: #9c88ff;
+    color: #028cd4;
 }
 
 
-::selection {color: white; background:black;}
-::-moz-selection {color: white; background:black;}
-::-webkit-selection {color: white; background:black;}
+::selection {color: white; background:var(--blue-color);}
+::-moz-selection {color: white; background:var(--blue-color);}
+::-webkit-selection {color: white; background:var(--blue-color);}
 
 .header__logo{
     height: 7vh;
@@ -62,6 +68,14 @@
 
 .contact{
     background-color: #f5f6fa;
+}
+
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
 
