@@ -1,5 +1,5 @@
 /* *{
-    outline: 1px red solid;
+    overflow-x: hidden;
 } */
 
 /* .fix{
@@ -10,7 +10,9 @@
 
 body{
     --blue-color: #028cd4;
+    overflow-x: hidden;
 }
+
 
 .navbar{
     background-color: rgba(47, 54, 64, .5);
